@@ -15,7 +15,7 @@ AutoLowerGraphics := true
 AutoGraphicsDelay := 50
 
 ; Set to true to automatically zoom in the camera
-AutoZoomInCamera := true
+AutoZoomInCamera := false
 AutoZoomDelay := 50
 
 ; Set to true to check for camera mode and enable it
@@ -23,18 +23,18 @@ AutoEnableCameraMode := true
 AutoCameraDelay := 50
 
 ; Set to true to automatically look down
-AutoLookDownCamera := true
+AutoLookDownCamera := false
 AutoLookDelay := 200
 
 ; Set to true to automatically blur the camera
-AutoBlurCamera := true
+AutoBlurCamera := false
 AutoBlurDelay := 50
 
 ; How long to wait after fishing before restarting
 RestartDelay := 600
 
 ; How long to hold the cast for before releasing
-HoldRodCastDuration := 480
+HoldRodCastDuration := 500
 
 ; How long to wait for the bobber to land in water
 WaitForBobberDelay := 1000
@@ -64,7 +64,7 @@ NavigationSpamDelay := 10
 ;     MINIGAME SETTINGS     ====================================================================================================;
 
 ; Bar size is automatically calculated, set manual value to override
-ManualBarSize := 0
+ManualBarSize := 0.01
 ; Seconds for calculation to be considered failed
 BarCalculationFailsafe := 10
 ; Color range to scan for initial white bar
